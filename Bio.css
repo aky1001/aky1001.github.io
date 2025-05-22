@@ -8,6 +8,10 @@
             .rectangle {
                 width: 25%;
                 height: 80%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%, -50%);
                 background-image: url('bio.png');
                 background-size: cover;
                 color: white;
@@ -15,7 +19,6 @@
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                margin: 50px auto;
                 border-radius: 20px;
                 flex-direction: column;
                 gap: 5px;
