@@ -6,7 +6,7 @@
                 font-size: 20px;
             }
             .rectangle {
-                width: 350px;
+                width: 25%;
                 height: 80%;
                 background-image: url('bio.png');
                 background-size: cover;
