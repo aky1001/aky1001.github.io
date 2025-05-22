@@ -28,9 +28,9 @@
                 align-items: center;
                 border-radius: 20px;
                 position: absolute;
-                top: 235px;
-                left: 690px;
-                transform: translateX(-50%);
+                top: 50%;
+                left: 50%;
+                transform: translateX(10%, -50%);
                 background-color: rgba(88, 166, 255, 0.1);
                 color: white;
                 text-align: center;
