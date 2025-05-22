@@ -1,0 +1,64 @@
+
+            body {
+                font-family: 'Inter', sans-serif;
+                background-image: url('image.png');
+                background-size: cover;
+                font-size: 20px;
+            }
+            .rectangle {
+                width: 350px;
+                height: 475px;
+                background-image: url('bio.png');
+                background-size: cover;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin: 50px auto;
+                border-radius: 20px;
+                flex-direction: column;
+                gap: 5px;
+            }
+            .oval {
+                width: 220px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                position: absolute;
+                top: 235px;
+                left: 690px;
+                transform: translateX(-50%);
+                background-color: rgba(88, 166, 255, 0.1);
+                color: white;
+                text-align: center;
+            }
+            .oval img {
+                width: 50px;
+                height: 50px;
+                margin: 0 7px;
+            }
+            .oval img:hover {
+                transform: scale(1.2);
+                transition: transform 0.2s ease;  
+            }
+            .p {
+                font-size: 25px;
+                color: #ffffff;
+                margin: 0;
+            }
+            small {
+                font-size: 13px;
+                color: #ccc;
+            }
+            small2 {
+                font-size: 16px;
+                color: #f8f8f8;
+            }
+            .rectangle img {
+                width: 25px;
+                height: 25px;
+                margin: 0 7px;
+            }
