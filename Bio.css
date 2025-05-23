@@ -47,24 +47,24 @@
             .p {
                 color: #fff;
                 margin-bottom: .1rem;
-                font-size: 1.3em;
+                font-size: 150%;
                 font-weight: bold;
                 unicode-bidi: isolate;
             }
             small2 {
                 color: rgba(255, 255, 255, .8);
-                margin-bottom: 2rem;
+                margin-bottom: 100%;
                 height: 24px;
                 font-size: 0.6em;
             }
             small {
                 color: rgba(255, 255, 255, .6);
-                margin-bottom: 2rem;
+                margin-bottom: 100%;
                 height: 24px;
                 font-size: 0.5em;
             }
             .rectangle img {
-                width: 23px;
-                height: 23px;
+                width: 70%;
+                height: 70%;
                 margin: 0 5px;
             }
