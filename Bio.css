@@ -30,8 +30,8 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                position: relative;
-                top: 15%;
+                position: absolute;
+                top: 38%;
                 border-radius: 15px;
                 background-color: rgba(88, 166, 255, 0.1);
                 color: white;
