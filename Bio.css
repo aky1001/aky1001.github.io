@@ -1,4 +1,3 @@
-
             body {
                 font-family: 'Inter', sans-serif;
                 background-image: url('image.png');
@@ -26,11 +25,9 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                border-radius: 20px;
                 position: absolute;
-                top: 235px;
-                left: 690px;
-                transform: translateX(-50%);
+                top: 38%;
+                border-radius: 15px;
                 background-color: rgba(88, 166, 255, 0.1);
                 color: white;
                 text-align: center;
