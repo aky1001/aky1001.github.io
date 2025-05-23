@@ -49,6 +49,7 @@
             .small {
                 color: rgba(255, 255, 255, .6);
                 font-size: 13px;
+                text-decoration: none;
             }
             .small2 {
                 color: rgba(255, 255, 255, .8);
