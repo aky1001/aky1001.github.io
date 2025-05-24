@@ -4,15 +4,16 @@
                 background-image: url('image.png');
                 background-size: cover;
                 font-size: 20px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
             }
             .rectangle {
                 width: 350px;
                 height: 475px;
                 background-image: url('bio.png');
                 background-size: cover;
+                position:absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
                 color: white;
                 display: flex;
                 justify-content: center;
