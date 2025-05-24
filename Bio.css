@@ -1,41 +1,40 @@
 
             body {
                 font-family: Arial, Helvetica, sans-serif;
-                background-image: url('image.png');
+                background-image: url(image.png);
                 background-size: cover;
                 font-size: 20px;
             }
             .rectangle {
-                width: 350px;
-                height: 475px;
-                background-image: url('bio.png');
-                background-size: cover;
-                position:absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                color: white;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-                border-radius: 40px;
-                flex-direction: column;
-                gap: 5px;
+            width: 350px;
+            height: 475px;
+            background-image: url(bio.png);
+            background-size: cover;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-radius: 40px;
+            flex-direction: column;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            gap: 5px;
             }
-            .oval {
-                width: 250px;
-                height: 40px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                position: relative;
-                transform: translate(-0%, -50%);
-                top: 18%;
-                border-radius: 15px;
-                background-color: rgba(72, 206, 166, 0.2);
-                color: white;
-                text-align: center;
+            .oval {    
+            width: 250px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 38%;
+            border-radius: 15px;
+            background-color: rgba(72, 206, 166, 0.2);
+            color: white;
+            text-align: center;
             }
             .oval img:hover {
                 transform: scale(1.2);
