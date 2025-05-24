@@ -28,8 +28,9 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                position: absolute;
-                top: 38%;
+                position: relative;
+                transform: translate(-0%, -50%);
+                top: 18%;
                 border-radius: 15px;
                 background-color: rgba(72, 206, 166, 0.2);
                 color: white;
