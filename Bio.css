@@ -22,6 +22,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
             gap: 5px;
+            cursor: default;
             }
             .oval {    
             width: 250px;
@@ -55,6 +56,7 @@
             .small2 {
                 color: rgba(255, 255, 255, .8);
                 font-size: 15px;
+                cursor: default;
             }
             .rectangle img {
                 width: 25px;
