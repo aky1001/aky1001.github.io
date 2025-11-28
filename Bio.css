@@ -1,41 +1,72 @@
 
             body {
                 font-family: Arial, Helvetica, sans-serif;
-                background-image: url(image.png);
+                background-image: url('image.png');
                 background-size: cover;
                 font-size: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 95%;
+            }
+            glow {
+                position: relative;
+                width: 370px;
+                height: 495px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: -1;
+                background-color: white;
+                border-radius: 40px;
+            }
+            glow::before {
+                content: "";
+                position: absolute;
+                top: -10px;
+                left: -10px;
+                right: -10px;
+                bottom: -10px;
+                background: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff, #ff0000);
+                background-size: 400% 400%;
+                filter: blur(20px);
+                z-index: -1;
+                animation: glowing 20s linear infinite;
+                border-radius: 40px;
+            }
+            @keyframes glowing {
+                0% { background-position: 0% 50%; }
+                50% { background-position: 100% 50%; }
+                100% { background-position: 0% 50%; }
             }
             .rectangle {
-            width: 350px;
-            height: 475px;
-            background-image: url(bio.png);
-            background-size: cover;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            border-radius: 40px;
-            flex-direction: column;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            gap: 5px;
-            cursor: default;
+                width: 350px;
+                height: 475px;
+                background-image: url('bio.png');
+                background-size: cover;
+                color: white;
+                display: flex;
+                justify-content: center;
+                position:relative;
+                align-items: center;
+                text-align: center;
+                border-radius: 40px;
+                flex-direction: column;
+                gap: 5px;
+                cursor: default;
             }
-            .oval {    
-            width: 250px;
-            height: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: absolute;
-            top: 38%;
-            border-radius: 15px;
-            background-color: rgba(72, 206, 166, 0.2);
-            color: white;
-            text-align: center;
+            .oval {
+                width: 250px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: 38%;
+                border-radius: 15px;
+                background-color: rgba(72, 206, 166, 0.2);
+                color: white;
+                text-align: center;
             }
             .oval img:hover {
                 transform: scale(1.2);
